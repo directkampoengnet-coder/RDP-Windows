@@ -1,4 +1,4 @@
-name: RDP_TIPSUNIX
+name: RDP_KAMPOENGNET(TIPSUNIX)
 
 on:
   workflow_dispatch:
@@ -103,7 +103,7 @@ jobs:
           Write-Host "`n=== RDP ACCESS ==="
           Write-Host "http://www.youtube.com/@TipsUNIX"
           Write-Host "Address: $env:TAILSCALE_IP"
-          Write-Host "Username: RDP"
+          Write-Host "Username: KAMPOENGNET"
           Write-Host "Password: $(echo $env:RDP_CREDS)"
           Write-Host "==================`n"
           
